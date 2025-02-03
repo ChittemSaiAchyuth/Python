@@ -1,0 +1,62 @@
+Practice in Python IDLE
+2+3
+5
+
+9-6
+3
+
+5*9
+45
+
+8/2
+4.0
+#It is an integer or a floating-point number (float stands for Floating Point Representation).
+
+5/2
+2.5
+
+5//2
+2
+#To get a single-digit result, we use '//', which is called integer or floor division.
+
+2**3
+8
+#If we use a double star (**), it represents the power of a number.
+
+'Arjun'
+'Arjun'
+
+print('Arjun')
+Arjun
+
+print('arjun Toy's')
+SyntaxError: unterminated string literal (detected at line 1)
+
+print("Arjun Toy's")      
+Arjun Toy's
+
+print('Arjun "Toy's"')
+SyntaxError: unterminated string literal (detected at line 1)
+
+print('Arjun "Toy\'s"')
+Arjun "Toy's"
+#A backslash (\) ignores the special meaning of a single quote.
+      
+'Arjun'      
+'Arjun'
+
+'Arjun'+'Arjun'
+'ArjunArjun'
+
+10*'Arjun'      
+'ArjunArjunArjunArjunArjunArjunArjunArjunArjunArjun'
+#It will print 10 time of the name.
+      
+print('c:\docs\Arjun')
+c:\docs\
+rjun
+
+print(r'c:\docs\Arjun')      
+c:\docs\Arjun
+#The 'r' prefix represents a raw string, meaning it does not convert special characters.
+      
